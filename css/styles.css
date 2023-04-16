@@ -1,7 +1,8 @@
 html, body{
     margin: 0;
     height: 100%;
-    background-color: #407dccd5;
+    background-image: url("../images/background.png");
+    background-size: 100%;
 }
 
 .container {
@@ -47,7 +48,7 @@ html, body{
     width: 100%;
 }
 
-.video-topBar {
+/* .video-topBar {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +64,7 @@ html, body{
     font-weight: 600;
     z-index: 2;
     transition: all ease 0.5s;
-}
+} */
 
 .video-player.hide-controls .video-topBar {
     transform: translateY(100%);
